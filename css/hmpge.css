@@ -1,0 +1,125 @@
+body {
+  background-color: #f7f6f6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f7f6f6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+.search {
+  background-color: #f7f7f7;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  border-radius: 50px 0px 0px 50px;
+  border: 1px solid #000000;
+  padding-left: 20px;
+  width: 100%;
+  height: 35px;
+  color: black;
+}
+.search:hover {
+  border-color: black;
+  border-width: 0.15rem;
+}
+.search:focus {
+  box-shadow: none;
+  border-color: black;
+  border: 2px solid #000000;
+}
+.btn-search {
+  color: white !important;
+  border: none !important;
+  border-radius: 0px 50px 50px 0px;
+  background-color: black;
+  height: 35px;
+}
+.btn-search:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black !important;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Urbanist", sans-serif;
+}
+.btn-masuk:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black !important;
+}
+.btn-daftar {
+  background-color: black;
+  color: white;
+}
+.btn-daftar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black !important;
+}
+.dropdown-menu {
+  border-radius: 10px 0px 0px 10px;
+}
+.dropdown {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.dropdown:hover {
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+/* End Navbar */
+
+/* Carousel */
+.carousel-inner {
+  margin-top: 8%;
+  border-radius: 50px;
+  width: 100%;
+  height: 600px;
+}
+/* End Carousel */
+
+/* Foto */
+.poto-galeri {
+  border-radius: 15px;
+  width: 100%;
+  height: 150px;
+}
+.poto-galeri:hover {
+  transform: scale(1.01);
+}
+.poto-profil {
+  width: 20px;
+  height: 20px;
+}
+/* End Foto */
+
+/* Footer */
+footer {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+footer p {
+  font-size: 85%;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-footer {
+  border-radius: 20px;
+  color: black;
+  height: 60px;
+  width: 60px;
+}
+.btn-footer:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.ikon {
+  width: 100%;
+  height: 100%;
+}
+/* End Footer */
