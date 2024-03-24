@@ -89,7 +89,8 @@ $UserId = isset($_SESSION['UserId']) ? $_SESSION['UserId'] : 0;
             <div class="card shadow" style="width: 100%">
                 <img src="gbr/<?php echo $data['LokasiFile']?>" class="card-img-top object-fit-cover" alt="...">
                 <div class="card-body justify-content-between">
-                    <strong><?php echo $data['Username']?></strong>
+                    <a href="profil.php?UserId=<?= $data['UserId']?>" class="text-decoration-none"><strong
+                            class="fw-bold text-black"> <?php echo $data['Username']?></strong></a>
                     <div class="d-flex align-items-center justify-content-between mt-1">
                         <small class="fw-bold" style="font-size:140%;"><?php echo $data['JudulFoto']?></small>
                         <div class="me-2 d-flex align-items-center">
